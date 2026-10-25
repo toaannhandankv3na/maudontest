@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tòa án nhân dân khu vực 3 - Nghệ An</title>
+<meta name="description" content="Cổng thông tin biểu mẫu và đơn từ - Tòa án nhân dân khu vực 3, tỉnh Nghệ An">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="gov-strip"><div class="wrap gov-inner"><span>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</span><span>Độc lập - Tự do - Hạnh phúc</span></div></div>
+
+<header class="header">
+  <div class="wrap header-main">
+    <a class="brand" href="#">
+      <div class="emblem">⚖</div>
+      <div><b>TÒA ÁN NHÂN DÂN KHU VỰC 3</b><strong>TỈNH NGHỆ AN</strong><small>CỔNG THÔNG TIN BIỂU MẪU & ĐƠN TỪ</small></div>
+    </a>
+    <div class="header-tools"><span>Hỗ trợ người dân</span><span>Tra cứu biểu mẫu</span></div>
+  </div>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="active" href="#home">Trang chủ</a>
+      <a href="#forms">Biểu mẫu & đơn từ</a>
+      <a href="#guide">Hướng dẫn</a>
+      <a href="#contact">Thông tin liên hệ</a>
+      <div class="search-mini">⌕</div>
+    </div>
+  </nav>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-pattern"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <div class="label">CỔNG TIỆN ÍCH DÀNH CHO NGƯỜI DÂN</div>
+      <h1>Biểu mẫu và đơn từ<br><span>tra cứu thuận tiện</span></h1>
+      <p>Tìm nhanh các biểu mẫu thuộc lĩnh vực Hình sự, Dân sự và Hành chính; xem hướng dẫn và tải tài liệu.</p>
+      <a class="primary" href="#forms">Tra cứu biểu mẫu <span>→</span></a>
+    </div>
+    <div class="hero-panel">
+      <div class="panel-top"><span class="dot"></span> THÔNG TIN NHANH</div>
+      <div class="quick"><b>03</b><span>Nhóm lĩnh vực</span></div>
+      <div class="quick"><b>PDF / DOCX</b><span>Định dạng tải xuống</span></div>
+      <div class="quick"><b>24/7</b><span>Truy cập trực tuyến</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="forms" class="wrap forms">
+  <div class="section-head">
+    <div><div class="overline">TRA CỨU</div><h2>Chọn lĩnh vực cần tìm</h2></div>
+    <p>Chọn một danh mục để hiển thị toàn bộ biểu mẫu.</p>
+  </div>
+  <div class="category-grid">
+    <button class="category active" data-category="Hình sự" onclick="showCategory('Hình sự')"><span class="cat-no">01</span><span class="cat-icon">⚖</span><span><b>Hình sự</b><small>Biểu mẫu tố tụng hình sự</small></span><i>→</i></button>
+    <button class="category" data-category="Dân sự" onclick="showCategory('Dân sự')"><span class="cat-no">02</span><span class="cat-icon">▤</span><span><b>Dân sự</b><small>Biểu mẫu dân sự, hôn nhân</small></span><i>→</i></button>
+    <button class="category" data-category="Hành chính" onclick="showCategory('Hành chính')"><span class="cat-no">03</span><span class="cat-icon">⌂</span><span><b>Hành chính</b><small>Biểu mẫu tố tụng hành chính</small></span><i>→</i></button>
+  </div>
+
+  <div class="list-head"><div><span class="red-line"></span><h3 id="selectedName">Hình sự</h3></div><span id="count"></span></div>
+  <div id="formsList" class="forms-list"></div>
+  <div class="official-note"><span>!</span><p><b>Thông tin cần lưu ý</b><br>Biểu mẫu sử dụng trong thực tế cần được đối chiếu với văn bản, biểu mẫu đang có hiệu lực và nguồn công bố chính thức của cơ quan có thẩm quyền.</p></div>
+</section>
+
+<section id="guide" class="guide">
+ <div class="wrap">
+  <div class="overline">HƯỚNG DẪN</div><h2>Sử dụng biểu mẫu</h2>
+  <div class="guide-grid">
+   <div><span>01</span><b>Chọn lĩnh vực</b><p>Chọn Hình sự, Dân sự hoặc Hành chính.</p></div>
+   <div><span>02</span><b>Chọn biểu mẫu</b><p>Đọc tên và mô tả để xác định đúng loại đơn.</p></div>
+   <div><span>03</span><b>Tải tài liệu</b><p>Nhấn nút tải xuống để mở PDF hoặc DOCX.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="wrap contact-inner">
+  <div><div class="overline">THÔNG TIN</div><h2>Tòa án nhân dân khu vực 3 - Nghệ An</h2><p>Địa chỉ, số điện thoại, giờ tiếp công dân và các thông tin hành chính sẽ được cập nhật theo thông tin chính thức.</p></div>
+  <a class="official-link" href="https://www.toaan.gov.vn/" target="_blank" rel="noopener">Cổng thông tin Tòa án nhân dân tối cao <span>↗</span></a>
+ </div>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><span>© 2026 TÒA ÁN NHÂN DÂN KHU VỰC 3 - NGHỆ AN</span><span>Trang tiện ích biểu mẫu</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
